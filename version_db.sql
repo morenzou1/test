@@ -10,6 +10,9 @@ CREATE TABLE qpay_personal_config.t_config_ver (
     Fcreate_time            datetime            NOT NULL ,
     Fmodify_time            datetime            NOT NULL ,
     
+    
     PRIMARY KEY (Fversion_id),
     KEY idx_create_time (Fcreate_time)
 )default charset=latin1;
+
+
